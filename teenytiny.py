@@ -1,4 +1,4 @@
-from lex import *
+from lexer.lex import *
 
 def main():
     source = "LET foobar = 123"

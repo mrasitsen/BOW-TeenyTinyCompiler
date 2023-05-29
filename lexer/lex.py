@@ -37,4 +37,20 @@ class Lexer:
 
     #get the next token
     def nextToken(self):
-        pass
+        match self.curChar:
+            case '+':
+                pass
+            case '-':
+                pass
+            case '*':
+                pass
+            case '/':
+                pass
+            case '\n':
+                pass
+            case '\0':
+                pass
+            case _:
+                "Unkown Token"
+
+        self.nextChar()
